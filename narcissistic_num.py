@@ -9,9 +9,9 @@ def checkNum(n):
         sum += int(arr[i])**len(arr)
 
     if sum == n:
-        print(f"{n} is an Armstrong number")
+        print(f"{n} is a narcissistic number")
     else:
-        print(f"{n} is not an Armstrong number")
+        print(f"{n} is not a narcissistic number")
 
 
 num = int(input("Enter the number : "))
